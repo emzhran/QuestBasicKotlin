@@ -2,7 +2,7 @@ package com.example.questbasickotlin
 
 fun ContohList(){
     println("=== List ===")
-    val readOnlyAbjad = listOF("A", "B", "C")
+    val readOnlyAbjad = listOf("A", "B", "C")
     println(readOnlyAbjad)
 
     val shape: MutableList<String> = mutableListOf("Circle", "Square", "Triangle")
@@ -18,5 +18,25 @@ fun ContohList(){
     println(shape)
 
     val shapesLocked: List<String> = shape
+    println(shapesLocked)
+}
+
+fun ContohSet(){
+    println()
+    println("=== Set ===")
+
+    val readOnlyAbjad = setOf("A", "B", "C")
+    println(readOnlyAbjad)
+
+    val shape: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
+    println(shape)
+
+    shape.add("Rectangle")
+    println(shape)
+
+    shape.remove("Circle")
+    println(shape)
+
+    val shapesLocked: Set<String> = shape
     println(shapesLocked)
 }
