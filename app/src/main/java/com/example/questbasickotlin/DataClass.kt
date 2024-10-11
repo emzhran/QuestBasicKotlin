@@ -1,5 +1,9 @@
 package com.example.questbasickotlin
 
+//Data Class adalah class yang digunakan untuk menyimpan sebuah data
+//Data Class menyediakan fungsi untuk mengoverride fungsi equals(), hashCode() dan toString()
+//Data Class juga akan menyediakan fungsi copy() untuk membuat salinan objek dengan beberapa perubahan
+
 data class DataClass(
     val id: Int,
     var email: String
