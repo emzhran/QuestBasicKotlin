@@ -26,6 +26,12 @@ fun ContohList(){
     println(shapesLocked)
 }
 
+//Set adalah kumpulan data yang tidak memiliki posisi atau urutan tertentu dan hanya akan menyimpan data unik
+//Set bersifat unordered, yang artinya data yang dimasukkan tidak memiliki posisi tertentu
+//Set bersifat mutable dan read only, yang artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
+//Set Read-Only menggunakan setOf
+//Set Mutable menggunakan mutableSetOf
+
 fun ContohSet(){
     println()
     println("=== Set ===")
