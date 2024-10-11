@@ -1,4 +1,9 @@
 package com.example.questbasickotlin
+//List adalah kumpulan data yang disusun secara berurutan
+//List bersifat ordered, yang artinya data yang dimasukkan akan memiliki posisi sesuai urutan
+//List bersifat mutable dan read only, yang artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
+//List Read-Only menggunakan listOf
+//List Mutable menggunakan mutablelistOf
 
 fun ContohList(){
     println("=== List ===")
